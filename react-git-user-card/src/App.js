@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import GitUserCard from './GitUserCard';
 import axios from 'axios';
+import GitUserFollow from './GitUserFollow';
 
 class App extends React.Component {
   constructor() {
@@ -28,6 +29,7 @@ class App extends React.Component {
     return (
       <div>
             <GitUserCard cards={this.state.cards} />
+            <GitUserFollow />
       </div>
     );
   }

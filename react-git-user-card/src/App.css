@@ -23,7 +23,7 @@
 
 .gh-Header {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid white;
   justify-content: space-between;
   margin: 10px;
   padding: 0 135px;
@@ -50,7 +50,7 @@
 .user-card img {
   height: 50px;
   width: 50px;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 5rem;
   margin-top: 13px;
 }
@@ -61,7 +61,7 @@
 }
 
 .gh-link {
-  padding-left: 21px;
+  padding-left: 18px;
 }
 
 .follows {
