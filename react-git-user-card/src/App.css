@@ -20,3 +20,50 @@
 .App-link {
   color: #09d3ac;
 }
+
+.gh-Header {
+  display: flex;
+  border: 1px solid black;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 0 135px;
+  border-radius: 5px;
+}
+
+.user-card {
+  border: 1px solid black;
+  width: 570px;
+  height: 275px;
+  margin: auto;
+  font-family: 'Concert One', cursive;
+  background: #5D8FAE;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.info-section {
+  padding-left: 40px;
+}
+
+.user-card img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+  border-radius: 5rem;
+  margin-top: 13px;
+}
+
+.user-card span {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.gh-link {
+  padding-left: 21px;
+}
+
+.follows {
+  padding-left: 46px;
+}
